@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('photowebapp')
-    .controller('MainCtrl', function ($scope) {
+
+    APP.controller('MainCtrl', function ($scope) {
 
         $scope.todos = ['one','two','three', 'four'];
 
@@ -12,7 +12,6 @@ angular.module('photowebapp')
         };
 
         $scope.removeTodo = function(index) {
-
             $scope.todos.splice(index, 1);
         }
     });

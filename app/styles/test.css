@@ -1,0 +1,12 @@
+
+@media (min--moz-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+    em.clearly_highlight_element {
+        background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow@2x.png");
+    }
+
+    em.clearly_highlight_element a.clearly_highlight_delete_element {
+        background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite@2x.png");
+        background-size: 68px 34px;
+    }
+}
